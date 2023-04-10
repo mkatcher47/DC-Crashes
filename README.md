@@ -2,7 +2,7 @@
 
 First, I downloaded the data from [Open Data DC](https://opendata.dc.gov/datasets/DCGIS::crashes-in-dc/about) and created a PostGRE database. A table was created using the command below:
 
-'''
+```SQL
 create table dc_crash_data (x decimal(9,6),
 y decimal(9,6),
 objectid int,
@@ -61,7 +61,7 @@ majorinjuriespassenger int,
 minorinjuriespassenger int,
 unknowninjuriespassenger int,
 mar_id int);
-'''
+```
 
 
 
